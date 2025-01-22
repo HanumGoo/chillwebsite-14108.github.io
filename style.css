@@ -1,5 +1,17 @@
 @import url('styleImport.css');
 @import url('typography.css');
+
+@media screen and (max-width: 600px) {
+
+    
+    
+
+}
+
+
+
+
+
 body {
     background: url('./images/background.jpeg') rgba(0, 0, 0, 0.3);
     background-position: center;
@@ -27,8 +39,9 @@ p {
     /* border: 2px solid rgba(24, 26, 28, 0.84); */
 
     border: 2px solid transparent;
-    width: 529px;
-    height: 593px;
+    width: 75%;
+    max-width: 529px;
+    max-height: 593px;
     background-color: rgba(24, 26, 28, 0.84);
     border-radius: 16px;
     display: flex;
@@ -73,7 +86,8 @@ p {
     background-color: transparent;
     border-color: rgba(231, 227, 252, 0.23);
     border-radius: 24px;
-    width: 449px;
+    width: 60vw;
+    max-width: 449px;
     height: 16px;
     font-size: 16px;
     font-weight: 400;
@@ -95,7 +109,8 @@ p {
     background-color: hsla(192, 4%, 25%, 1);
     border: 1px solid hsla(250, 81%, 94%, 0.23);
     color: hsla(0, 0%, 100%, 1);
-    width: 449px;
+    width: 60vw;
+    max-width: 449px;
     height: 20px;
     box-sizing: content-box;
     margin-bottom: 7px;
@@ -137,9 +152,10 @@ p {
 .eyeLogo {
     background-color: transparent;
     border: none;
-    width: 20px;
+    width: 60vw;
+    max-width: 20px;
     height: fit-content;
-    position:absolute;
+    position: absolute;
     top: -46px;
     left: 450px;
 }
@@ -177,7 +193,8 @@ p {
     background-color: transparent;
     border: 1px solid hsla(250, 81%, 94%, 0.23);
     border-radius: 24px;
-    width: 449px;
+    width: 60vw;
+    max-width: 449px;
     padding: 14px 20px;
     box-sizing: content-box;
 }
