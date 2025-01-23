@@ -1,7 +1,7 @@
 @import url('styleImport.css');
 @import url('typography.css');
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
 
     .eyeLogo {
             background-color: transparent;
