@@ -14,7 +14,6 @@
             left: 230px !important;
         
     }
-    
 
 }
 
@@ -213,6 +212,8 @@ p {
     color: hsla(225, 2%, 62%, 1);
     margin-bottom: 8px;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
 
 }
 
